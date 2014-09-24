@@ -1,4 +1,3 @@
-granatcard.by
+www.granatcard.by
 =============
-
-Каркас для www.granatcard.by
+Приложение для мобильной версии сайта www.granatcard.by.
