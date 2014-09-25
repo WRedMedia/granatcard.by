@@ -3,7 +3,7 @@
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
  * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
+ * to you under the Apache License, Version '';#FName:index.js | #Date:25-09-2014 22:56:49 | #8
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
  *
@@ -47,3 +47,9 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+jQuery(window).load(function() {
+        // will first fade out the loading animation
+    jQuery(".status").fadeOut();
+        // will fade out the whole DIV that covers the website.
+    jQuery("#preloader").delay(1000).fadeOut("slow");
+})

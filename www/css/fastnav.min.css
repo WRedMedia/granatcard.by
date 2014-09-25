@@ -5,14 +5,14 @@
 .jf_fastnav_btn:hover i.normal{display:none}
 .jf_fastnav_btn:hover i.hover{display:block}
 .jf_fastnav_backout{display:none;position:fixed;width:100%;height:100%;z-index:10000;background:#fff;background:url(jf_bg_white_050.png);margin:0;padding:0;left:0;top:0}
-.jf_fastnav_content{}
+.jf_fastnav_content{width: 100%; position: relative;}
 .jf_fastnav_close{cursor:pointer;display:block}
-.jf_fastnav_items{background-repeat:no-repeat;position:relative;display:block;height:280px;width:280px}
+.jf_fastnav_items{background-repeat:no-repeat;position:relative;display:block;height:280px;width:280px;margin:0 auto;}
 .jf_fastnav_items a img{position:absolute;display:block;width:70px;height:70px;cursor:pointer}
 .jf_fastnav_items a.blue{background-color:#0d7689}
 .jf_fastnav_items a.red{background-color:#ff3000}
 .jf_fastnav_items a.green{background-color:#02c022}
-.jf_fastnav_content .item_title,.jf_fastnav_close_sec:hover span{opacity:0;-moz-opacity:0;filter:alpha(opacity=0);bottom:-60px;position:absolute;display: block;width:100%;text-align:center;font-size:22px;color:#E21818;-webkit-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-o-transition:all .2s ease-in;-ms-transition:all .2s ease-in;transition:all .2s ease-in}
+.jf_fastnav_content .item_title,.jf_fastnav_close_sec:hover span{opacity:0;-moz-opacity:0;filter:alpha(opacity=0);bottom:-60px;position:absolute;display:block;width:100%;text-align:center;color:#E21818;-webkit-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-o-transition:all .2s ease-in;-ms-transition:all .2s ease-in;transition:all .2s ease-in}
 .jf_fastnav_items div:hover span,.jf_fastnav_close_sec:hover span{bottom:-40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=99)}
 .jf_fastnav_items .jf_center a{top:87px!important;position:absolute!important;left:84px!important;width:109px!important;height:108px!important;display:block!important;}
 .jf_fastnav_items .jf_topleft a{top:38px;position:absolute;left:58px;width:44px;height:48px;display:block}
