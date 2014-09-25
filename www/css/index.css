@@ -1,18 +1,44 @@
+/* * Licensed to the Apache Software Foundation (ASF) under one
+* or more contributor license agreements.  See the NOTICE file
+* distributed with this work for additional information
+* regarding copyright ownership.  The ASF licenses this file
+* to you under the Apache License,Version '';#FName:index.css | #Date:26-09-2014 01:16:47 | #25
+#FName:index.css | #Date:25-09-2014 00:43:52 | #3
+* "License");
+you may not use this file except in compliance
+* with the License.  You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,* software distributed under the License is distributed on an
+* "AS IS" BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND,either express or implied.  See the License for the
+* specific language governing permissions and limitations
+* under the License. */
 *{-webkit-tap-highlight-color:rgba(0,0,0,0); /* make transparent link selection,adjust last value opacity 0 to 1.0 */}
-body{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-user-select:none;background-color:#eeeeee;background-image:url(../img/header_bg.png);background-size:cover;background-repeat:no-repeat;height:100%;min-height:600px;margin:0px;padding:0px;text-transform:uppercase;width:100%;}
-#deviceready{margin:50px 0 100px 0;}
-#cleversite_clever_button{display:none!important;}
-.app{position: relative; margin: 5% auto; text-align: center; width: 350px;}
-#preloader{width:100%;height:100%;top: 0;position:absolute;z-index:999;background-color:#eeeeee;background-image:url(../img/header_bg.png);background-size:cover;background-repeat:no-repeat;}
-.status{position:absolute;width:60px;height:60px;background-color:#E21818;left:50%;top:50%;margin-left:-22px;margin-top:-30px;-webkit-animation:rotateplane 1.2s infinite ease-in-out;animation:rotateplane 1.2s infinite ease-in-out;}
-.footer p {font-size: xx-small;}
-@-webkit-keyframes rotateplane{
-	0%{-webkit-transform:perspective(120px)}
-	50%{-webkit-transform:perspective(120px) rotateY(180deg)}
-	100%{-webkit-transform:perspective(120px) rotateY(180deg)  rotateX(180deg)}
+body {
+-webkit-touch-callout: none;
+-webkit-text-size-adjust: none;
+-webkit-user-select: none;
+background-color: #eeeeee;
+background-image: url(../img/header_bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif;
+font-size: 12px;
+height: 100%;
+min-height: 600px;
+margin: 0px;
+padding: 0px;
+text-transform: uppercase;
+width: 100%;
 }
-@keyframes rotateplane{
-	0%{transform:perspective(120px) rotateX(0deg) rotateY(0deg);-webkit-transform:perspective(120px) rotateX(0deg) rotateY(0deg)}
-	50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0deg);-webkit-transform:perspective(120px) rotateX(-180.1deg) rotateY(0deg)}
-	100%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-webkit-transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);}
+#deviceready {margin: 50px 0 100px 0;}
+#cleversite_clever_button {display: none !important;}
+/* Portrait layout (default) */
+.app{position:absolute; /* position in the center of the screen */
+    left:50%;top:10%; /* text area width */
+    text-align:center;
+    padding:120px 0 0 0; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0 0 -140px; /* offset vertical:half of image height and text area height */
 }
