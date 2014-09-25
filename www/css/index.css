@@ -2,7 +2,7 @@
 * or more contributor license agreements.  See the NOTICE file
 * distributed with this work for additional information
 * regarding copyright ownership.  The ASF licenses this file
-* to you under the Apache License,Version '';#FName:index.css | #Date:25-09-2014 17:35:20 | #21
+* to you under the Apache License,Version '';#FName:index.css | #Date:25-09-2014 18:51:45 | #24
 #FName:index.css | #Date:25-09-2014 00:43:52 | #3
 * "License");
 you may not use this file except in compliance
@@ -34,6 +34,7 @@ text-transform: uppercase;
 width: 100%;
 }
 #deviceready {margin: 50px 0 100px 0;}
+#cleversite_clever_button {display: none !important;}
 /* Portrait layout (default) */
 .app{position:absolute; /* position in the center of the screen */
     left:50%;top:10%; /* text area width */
