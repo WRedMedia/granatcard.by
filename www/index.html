@@ -74,6 +74,23 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">app.initialize();</script>
-
+<!-- cleversite button -->
+    <script type='text/javascript'>
+        (function() { 
+            var s = document.createElement('script');
+            s.type = 'text/javascript'; 
+            s.async = true; 
+                s.src = 'http://cleversite.ru/cleversite/widget_new.php?referer_main=http://www.granat.nurcard.am/&clid=297&site=1'; 
+            var ss = document.getElementsByTagName('script')[0]; 
+            ss.parentNode.insertBefore(s, ss); 
+        })(); 
+jQuery(document).ready(function($){
+    $( ".open_help" ).on( "click", function(e) {
+        e.preventDefault();
+        clickButton();
+    });
+});
+</script>
+<!-- / cleversite button -->
 </body>
 </html>
